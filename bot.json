@@ -11,6 +11,21 @@
         },
         {
             "contains": [],
+            "exact": ["Assalamualaikum", "assalamualaikum"],
+            "response": "Walaikumsallam wr. wb"
+        },
+        {
+            "contains": ["Aa", "aa"],
+            "exact": [],
+            "response": "Iya"
+        },
+        {
+            "contains": ["bay"],
+            "exact": ["Bay"],
+            "response": "Hallo, Saya adalah Bot yang dibuat oleh Bayu 😊. Nampaknya Bayu sedang sibuk, *mohon untuk menunggu beberapa saat* 🙏"
+        },
+        {
+            "contains": [],
             "exact": ["hello"],
             "response": "hi",
             "file":"noFile.png"
@@ -32,11 +47,6 @@
             "response": "hi"
         },
         {
-            "contains": ["michhami","dukkadam"],
-            "exact": [],
-            "response": "Michhami Dukkadam 🙏"
-        },
-        {
             "contains": ["happy","birthday","bday"],
             "exact": [],
             "response": "Thank you"
@@ -44,29 +54,13 @@
         {
             "contains": [],
             "exact": ["hbd"],
-            "response": "Thank you"
-        },
-        {
-            "contains": ["શુભકામના","જન્મદિન"],
-            "exact": [],
-            "response": "આભાર 🙏"
-        },
-        {
-            "contains": ["janmdin","hardik","shubhkaamna"],
-            "exact": [],
-            "response": "aabhar 🙏"
-        },
-        {
-            "contains": [],
-            "exact": ["github"],
-            "response": "Git Hub Logo",
-            "file":"github.png"
+            "response": "Makasih ya"
         }
     ],
     "blocked": [],
     "noMatch":"",
     "smartreply":{
-        "suggestions":["👍","Ha","aevu m?","Okay","Thanks"],
+        "suggestions":["👍","Iya","Okey","Makasih ya"],
         "clicktosend":true
     }
 }
